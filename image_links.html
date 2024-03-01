@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Webpage</title>
+  <style>
+    /* Add your CSS styles here */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage!</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#menu">Menu</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my webpage! Check out the latest in technology:</p>
+    <a href="https://drive.google.com/file/d/14E_oNlXfR6VxudBLPx63xTQ1iVuDd9wY/view?usp=sharing"><img src="technology_image.jpg" alt="Technology"></a>
+  </section>
+  
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <a href="https://drive.google.com/file/d/1pDdkG1PdnVUwRWtjE1bDNEw9RGvUxQBu/view?usp=sharing"><img src="nature_image1.jpg" alt="Nature 1"></a>
+      <a href="https://drive.google.com/file/d/1IZ6j1kaoZBeFCg1dwmyCWurEsxWN1EKe/view?usp=sharing"><img src="nature_image2.jpg" alt="Nature 2"></a>
+      <a href="https://drive.google.com/file/d/1rZajsoHsM10EPRGDcJrzwZFeJMxVV3ux/view?usp=sharing"><img src="nature_image3.jpg" alt="Nature 3"></a>
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+  
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1JUmqFEcVWIob-OeGF_VInVqTxY3IhAPF/view?usp=sharing"><img src="food1_image.jpg" alt="Food 1">Food Item 1</a></li>
+      <li><a href="https://drive.google.com/file/d/1W21wVzZVdhHNCs_R3aA1d5f2Dlf3adz5/view?usp=sharing"><img src="food2_image.jpg" alt="Food 2">Food Item 2</a></li>
+      <li><a href="https://drive.google.com/file/d/18hpPetqxHx4qYV-MT5ryslBm_j2Xq950/view?usp=sharing"><img src="food3_image.jpg" alt="Food 3">Food Item 3</a></li>
+      <!-- Add more food items as needed -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Webpage</p>
+  </footer>
+</body>
+</html>
